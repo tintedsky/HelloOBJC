@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC0465731F8F1C4E000B6993 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0465721F8F1C4E000B6993 /* ViewController.m */; };
 		FCC5EA691F8F187400AEFC7C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC5EA681F8F187400AEFC7C /* main.m */; };
 		FCC5EA6C1F8F187400AEFC7C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC5EA6B1F8F187400AEFC7C /* AppDelegate.m */; };
-		FCC5EA6F1F8F187400AEFC7C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC5EA6E1F8F187400AEFC7C /* ViewController.m */; };
 		FCC5EA721F8F187400AEFC7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCC5EA701F8F187400AEFC7C /* Main.storyboard */; };
 		FCC5EA741F8F187400AEFC7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCC5EA731F8F187400AEFC7C /* Assets.xcassets */; };
 		FCC5EA771F8F187400AEFC7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCC5EA751F8F187400AEFC7C /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FC0465721F8F1C4E000B6993 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FCC5EA641F8F187400AEFC7C /* HelloOBJC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloOBJC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCC5EA681F8F187400AEFC7C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FCC5EA6A1F8F187400AEFC7C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FCC5EA6B1F8F187400AEFC7C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		FCC5EA6D1F8F187400AEFC7C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FCC5EA6E1F8F187400AEFC7C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FCC5EA711F8F187400AEFC7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FCC5EA731F8F187400AEFC7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCC5EA761F8F187400AEFC7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -61,7 +61,7 @@
 				FCC5EA6A1F8F187400AEFC7C /* AppDelegate.h */,
 				FCC5EA6B1F8F187400AEFC7C /* AppDelegate.m */,
 				FCC5EA6D1F8F187400AEFC7C /* ViewController.h */,
-				FCC5EA6E1F8F187400AEFC7C /* ViewController.m */,
+				FC0465721F8F1C4E000B6993 /* ViewController.m */,
 				FCC5EA701F8F187400AEFC7C /* Main.storyboard */,
 				FCC5EA731F8F187400AEFC7C /* Assets.xcassets */,
 				FCC5EA751F8F187400AEFC7C /* LaunchScreen.storyboard */,
@@ -151,7 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCC5EA6F1F8F187400AEFC7C /* ViewController.m in Sources */,
+				FC0465731F8F1C4E000B6993 /* ViewController.m in Sources */,
 				FCC5EA6C1F8F187400AEFC7C /* AppDelegate.m in Sources */,
 				FCC5EA691F8F187400AEFC7C /* main.m in Sources */,
 			);
@@ -314,6 +314,7 @@
 				FCC5EA7D1F8F187400AEFC7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
